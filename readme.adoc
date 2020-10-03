@@ -1,0 +1,20 @@
+Esolang.org
+-----------
+
+This is a redirect to *https://esolangs.org[esolangs.org^]*.
+
+About
+~~~~~
+For https://esolangs.org/wiki/Special:Diff/31305/76028[eight years^], the
+domain `esolangs.org` hosted a homepage reading
+“Welcome&nbsp;to&nbsp;Esolang”. This must have been why I was surprised I
+didn’t arrive there when I attempted to visit `esolang.org` in&nbsp;mid‑2020.
+
+Having found a domain ripe for squatting, and which should have pointed to a
+website I love, I immediately signed up to lease it
+from&nbsp;https://mbsy.co/dreamhost/31718948[DreamHost^].
+
+After
+https://github.com/kspalaiologos/esologs/commit/fd87a8593fea78b10113fa15b0e8576ead51ec63#diff-d2c3aa787e67913c159a069e955fa447R209-R218[discussion
+with Esolangs^], the redirection will remain live during my time leasing
+the&nbsp;domain.

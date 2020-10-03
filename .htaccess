@@ -1,0 +1,28 @@
+# redirecting to Esolangs.org
+# https://github.com/kspalaiologos/esologs/commit/fd87a85#diff-d2c3aa787e67913c159a069e955fa447R209-R218
+
+
+# force HTTPS
+# https://github.com/phanan/htaccess/blob/7b8da8b/README.md#force-https
+RewriteEngine on
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+# enable HTTP Strict Transport Security (HSTS)
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+
+# force no-www
+# https://github.com/phanan/htaccess/blob/20ebc58/README.md#force-non-www-in-a-generic-way
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.
+RewriteCond %{HTTPS}s ^on(s)|off
+RewriteCond http%1://%{HTTP_HOST} ^(https?://)(www\.)?(.+)$
+RewriteRule ^ %1%3%{REQUEST_URI} [R=301,L]
+
+
+# redirect an entire site
+# https://github.com/phanan/htaccess/blob/443e9e6/README.md#redirect-an-entire-site
+Redirect 301 / https://esolangs.org/
