@@ -1,7 +1,8 @@
 Esolang.org
 -----------
 
-This is a redirect to *https://esolangs.org[esolangs.org^]*.
+This repository is no longer maintained, and since late 2022, there is no
+longer an active redirect. *You want https://esolangs.org[esolangs.org^]*.
 
 About
 ~~~~~
