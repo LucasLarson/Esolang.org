@@ -12,7 +12,7 @@ didn’t arrive there when I attempted to visit `esolang.org` in&nbsp;mid‑2020
 
 Having found a domain ripe for squatting, and which should have pointed to a
 website I love, I immediately signed up to lease it
-from&nbsp;https://mbsy.co/dreamhost/31718948[DreamHost^].
+from&nbsp;https://dreamhost.com[DreamHost^].
 
 After
 https://github.com/kspalaiologos/esologs/commit/fd87a8593fea78b10113fa15b0e8576ead51ec63#diff-d2c3aa787e67913c159a069e955fa447R209-R218[discussion
